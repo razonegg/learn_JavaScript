@@ -64,10 +64,63 @@
 // console.log("The sum of two number is:" $(result));
 
 
-let y = 90;
-y = y+10;
-console.log(y)
+// let y = 90;
+// y = y+10;
+// console.log(y)
 
-let x = 70;
-x += 50;
-console.log(x)
+// let x = 70;
+// x += 50;
+// console.log(x)
+
+
+// let email = "train@gmail.com";
+// let password = "123123";
+
+// if(email === "train@gmail.com" && === "123123") {
+//     console.log("Loin Successfully");
+// }else{
+//     console.log("Invalid Credental");
+// }
+
+
+// //see grade check 
+// let grade = 85;
+
+// if(grade >=90){
+//     console.log("Grade A")
+// }else if(grade >=90)
+
+// //weather
+// let weather = "sunny";
+// if(weather === "sunny"){
+//     console.log("friday is Sunny day");
+// }else if(weather === "Winter") {
+//     console.log("k yo mahina jado huncha ta");
+// }else if(weather === "rainy"){
+//     console.log("Aja badal lagcha hola");
+// }
+
+// 
+
+
+//Status
+let status = 200;
+
+switch (status) {
+    case 201:
+        console.log("Created");
+        break;
+    case 400:
+        console.log("bad request");
+    break;
+    case 401:
+        console.log("Unauthorized");
+    break;
+    case 402:
+        console.log("F");
+    break;  
+    case 200:
+        console.log("Created");
+    break;
+
+}
